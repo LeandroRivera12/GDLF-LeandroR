@@ -22,11 +22,6 @@ function App() {
   return (
   
     <div className='app' style={objStyle}>
-      <div className="app__img">
-      <img src="public/animacionGalleta.gif" alt="" />
-      </div>
-      
-      
       
       <h1 className='app__title'>GALLETAS DE LA <br /> FORTUNA</h1>
       <div className='app__card'>
