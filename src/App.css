@@ -15,6 +15,12 @@
     border-radius: 50%;
     height: 100px;
 }
+.app__img{
+    transition: transform .3s;
+}
+.app__img:hover{
+  transform: scale(1.04);
+}
 
 
 
