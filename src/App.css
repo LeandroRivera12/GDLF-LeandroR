@@ -10,15 +10,13 @@
     position: relative;
 }
 .app__img img{
-    display: none;
+    display: block;
     width: 100px;
     border-radius: 50%;
     height: 100px;
 }
 
-.app__img img.active{
-    display: block;
-}
+
 
 .app__title{
     color: white;
