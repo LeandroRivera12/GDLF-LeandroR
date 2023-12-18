@@ -1,0 +1,124 @@
+.app{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.app__img img{
+    display: none;
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+}
+
+.app__img img.active{
+    display: block;
+}
+
+.app__title{
+    color: white;
+    text-shadow: 0.2em 0.2em #0002;
+    text-align: center;
+    transition: transform .3s;
+}
+
+.app__title:hover{
+  cursor: pointer;
+  transform: scale(1.04);
+
+}
+
+
+.app__card{
+    width: 100%;
+    max-width: 35em;
+    height: 14em;
+    background-image: url(/public/rectangle1.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em 2em;
+    
+    transition: transform .3s;
+    /* border-radius: .8em;s */
+    /* box-shadow: .3em .3em .5em #0005; */
+    /* transition: .3s ease; */
+    /* position: relative; */
+    /* z-index: 2; */
+}
+
+ 
+.app__card:hover{
+    transform: scale(1.04);
+    
+} 
+
+.app__phrase{
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: .5em;
+    color: #0009;
+    /* position: absolute; */
+}
+
+.app__btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    margin-top: .8em;
+    border: none;
+    padding: .4em 1.5em;
+    border-radius: .8em;
+    background-color: mediumturquoise;
+    color: white;
+    transition: .3s ease;
+
+}
+
+.app__btn:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 .5em rgba(72, 209, 205, 0.699);
+    transition: .3s ease;
+}
+
+@media (max-width: 582px) {
+    .app__card{
+        width: 100%;
+        max-width: 34em;
+        height: 14em;  
+}
+}
+@media (max-width: 550px) {
+    .app__card{
+        width: 100%;
+        max-width: 30em;
+        height: 12em;  
+}
+}
+
+@media (max-width: 500px) {
+    .app__card{
+        width: 100%;
+        max-width: 25em;
+        height: 12em;  
+}
+}
+@media (max-width: 415px) {
+    .app__card{
+        width: 100%;
+        max-width: 20em;
+        height: 11em;  
+}
+}
+

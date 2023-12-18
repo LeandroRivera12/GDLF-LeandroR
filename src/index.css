@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+/* ----- RESET ---- */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Righteous', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+h1, p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button{
+  font-family: inherit;
+  cursor: pointer;
+}
