@@ -20,6 +20,7 @@
 }
 .app__img:hover{
   transform: scale(1.04);
+  cursor: pointer;
 }
 
 
@@ -64,6 +65,7 @@
  
 .app__card:hover{
     transform: scale(1.04);
+    cursor: pointer;
     
 } 
 
